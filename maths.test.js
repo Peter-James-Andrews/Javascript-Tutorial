@@ -1,9 +1,9 @@
-const maths = require('./maths');
+const {add, subtract} = require('./maths');
 
 test('adds two numbers', () => {
-    expect(maths.add(1, 2)).toBe(3);
+    expect(add(1, 2)).toBe(3);
 });
 
 test('subtracts two', () => {
-    expect(maths.subtract(9, 8)).toBe(1);
+    expect(subtract(9, 8)).toBe(1);
 });
